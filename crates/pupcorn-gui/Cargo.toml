@@ -1,0 +1,16 @@
+[package]
+name = "pupcorn-gui"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "pupcorn-gui"
+path = "src/main.rs"
+
+[dependencies]
+pupcorn-core = { path = "../pupcorn-core" }
+pupcorn-ai = { path = "../pupcorn-ai" }
+eframe = "0.31"
+egui = "0.31"
+tokio = { workspace = true }
+serde_json = { workspace = true }

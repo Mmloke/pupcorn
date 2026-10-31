@@ -1,0 +1,16 @@
+[package]
+name = "pupcorn-ai"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+pupcorn-core = { path = "../pupcorn-core" }
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+reqwest = { workspace = true }
+thiserror = { workspace = true }
+anyhow = { workspace = true }
+async-trait = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
